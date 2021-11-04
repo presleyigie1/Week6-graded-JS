@@ -1,0 +1,7 @@
+body{
+  /*adds a background color transition at 45degree angle */
+  background:linear-gradient(45deg,yellow,purple,red);
+}
+h1{
+  text-align: center
+}

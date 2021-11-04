@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>JS demo</title>
+	<!-- my CSS  -->
+    <link rel="stylesheet" href="style/fruit.css">
+
+	<!-- javascript -->
+	<script type="text/javascript">
+		//javascript goes here inside script tags
+
+		document.write("<h1>Hello Page 2</h1>"); //using HTML tags
+    var favFood = "I can see you have great taste icfood ";
+    document.write("Hmmm nice, " + favFood);
+
+    var favFood;
+    favFood = prompt("Enter your favouraite Food");//prompt is string or a text
+
+    alert("answer these date of birth questions")
+    var birthYear; //declaring my variables
+    var birthMonth;
+
+    birthYear = parseInt(prompt("Enter the year you were born (YYYY)"));
+    birthMonth = parseInt(prompt("Enter the Month you were born (MM)"));
+
+    if((birthYear < 2004) || (birthMonth < 09)){
+      document.write("<br> You are a qualified connoisseur :)");
+    }
+    if((birthYear < 2004) && (birthMonth < 09)){
+      // if either side is true you get a qualification
+      document.write("<br> You are a qualified connoisseur :)");
+    }
+      document.write("<br>outside the IF statement");
+
+
+
+	     </script>
+  </head>
+    <body>
+	       <p>Congratulations of receiving your qualification of a qualified conisseur</p>
+	       <a href="js-index.html">Back</a>
+
+  </body>
+</html>

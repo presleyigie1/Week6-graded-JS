@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>JS demo</title>
+	<!-- my CSS  -->
+  <link rel="stylesheet" href="style/fruit.css">
+<!-- 3 examples of JS using diff variables  add comments add css to both webpages commmit to git -->
+	<!-- javascript -->
+	<script type="text/javascript">
+		//javascript goes here inside script tags
+		//document.write("Hi"); //write direct to webpage
+		document.write("<h1>Hello World!</h1>"); //using HTML tags
+
+		//this is a var declare and value assigned
+		var name = "Jo";
+		document.write("Hi " + name+ "\n how are you? "); //making use of the variable
+    var favArtist = "I can see you have great taste in music ";
+    document.write("Hmmm nice, " + favArtist);
+
+    var favArtist;
+    favArtist = prompt("Enter your favouraite Artist");//prompt is string or a text
+
+    alert("answer these date of birth questions")
+    var birthYear; //declaring my variables
+    var birthMonth;
+
+    birthYear = parseInt(prompt("Enter the year you were born (YYYY)"));
+    birthMonth = parseInt(prompt("Enter the Month you were born (MM)"));
+
+    if((birthYear < 2004) || (birthMonth < 09)){
+      document.write("<br> You are a certified fan :)");
+      // either side is true you get a certfication of a fan of your favouraite artist
+    }
+      if((birthYear < 2004) && (birthMonth < 09)){
+      document.write("<br> You are a certified fan :)");
+
+      }
+      document.write("<br>outside the IF statement");
+
+
+
+
+
+	     </script>
+   </head>
+  <body>
+	     <p>Congratulations on becoming a cerified fan</p>
+	       <a href="page2.html">Page 2</a>
+
+
+  </body>
+</html>
